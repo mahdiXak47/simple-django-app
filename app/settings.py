@@ -28,13 +28,16 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-7)wrk4z$t5^4+*t80o)^$^io^%=b&l506=s+&6m#=n194i63dd'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     'disk-test.darkube.app',
     'localhost',
     '127.0.0.1',
 ]
+
+CSRF_TRUSTED_ORIGINS = ['https://disk-test.darkube.app']
+
 
 # Application definition
 
