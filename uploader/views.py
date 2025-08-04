@@ -28,5 +28,5 @@ class GeneralViewSet(GenericViewSet):
     permission_classes = [AllowAny]
 
     @action(detail=False, methods=['GET'], url_path='health')
-    def health(self, request):
+    def health(self):
         return Response(status=status.HTTP_200_OK)
