@@ -28,7 +28,7 @@ python manage.py runserver
 ## API Endpoints
 
 ### Health Check
-- **URL**: `/api/health/`
+- **URL**: `/health/`
 - **Method**: `GET`
 - **Description**: Readiness probe endpoint that returns HTTP 200 OK
 - **Authentication**: None required
