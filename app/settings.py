@@ -31,9 +31,7 @@ SECRET_KEY = 'django-insecure-7)wrk4z$t5^4+*t80o)^$^io^%=b&l506=s+&6m#=n194i63dd
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    'localhost',
-    '127.0.0.1',
-    '0.0.0.0',
+    '*'
 ]
 
 CSRF_TRUSTED_ORIGINS = ['https://disk-test.darkube.app']
