@@ -31,9 +31,9 @@ SECRET_KEY = 'django-insecure-7)wrk4z$t5^4+*t80o)^$^io^%=b&l506=s+&6m#=n194i63dd
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    'disk-test.darkube.app',
     'localhost',
     '127.0.0.1',
+    '0.0.0.0',
 ]
 
 CSRF_TRUSTED_ORIGINS = ['https://disk-test.darkube.app']
@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
     'uploader',
 ]
 
